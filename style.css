@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     background: linear-gradient(0deg,white,grey,rgb(160, 159, 159));
@@ -14,7 +14,6 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Alinea verticalmente los elementos en el centro */
     padding: 10px 20px; /* Espacio alrededor del contenido del header */
     background:linear-gradient(0deg,rgb(160, 159, 159),grey,rgb(20, 20, 20));
     color: #fff; /* Color del texto */
@@ -54,14 +53,14 @@ header nav ul li a {
 h1 {
     font-size: 2.5rem;
 }
-
 section {
-    margin: 20px auto;
-    max-width: 900px;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 60px auto 20px;
+    max-width: 900px; 
+    padding: 20px; 
+    background-color: #f7f2f2; 
+    box-shadow: 0 0 10px rgba(110, 18, 18, 0.1); /* Sombra para dar un efecto de elevación */
 }
+
 
 h2 {
     font-size: 2rem;
@@ -75,8 +74,8 @@ h2 {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
-    color: white;
+    background-color: #3a3535;
+    color: rgb(196, 175, 175);
     margin-top: 30px;
 }
 

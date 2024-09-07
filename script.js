@@ -1,8 +1,5 @@
-// Interactividad básica para validar y enviar el formulario
 document.getElementById('contactForm').addEventListener('submit', function(event) {
     event.preventDefault();
-
-    // Obtener los valores del formulario
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
